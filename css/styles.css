@@ -1,0 +1,123 @@
+nav,
+.offcanvas {
+  background-color: #1e293b;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav > li:hover {
+    background-color: #0dcaf0;
+  }
+}
+
+/*Whatsapp*/
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}
+
+/*Carrusel*/
+
+.carruselimg {
+  height: 305px;
+  width: 100%;
+  object-fit: cover;
+}
+
+#container {
+  padding-top: 25px;
+}
+
+.boton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 40px;
+  background: black;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: .3s ease all;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.boton span{
+  position: relative;
+  z-index: 2;
+  transition: .3s ease all;
+}
+
+.boton::after {
+  content: "";
+  width: 110%;
+  height: 50px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: calc(-100% - 40px);
+  background: black;
+  border-bottom: 50px solid rgb(21, 228, 131);
+  border-right: 40px solid transparent;
+  transition: .4s ease-in-out all;
+}
+
+.boton:hover::after {
+  left: 0;
+}
+
+#paddingboton {
+  padding-bottom: 15px;
+}
+
+/*Texto tarjetas*/
+
+#espaciado {
+  letter-spacing: 0.3em;
+  line-height: normal;
+  text-align: center;
+  font-size: 34px;
+}
+
+.borde{
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
+
+.borde.boton {
+  align-items: center;
+}
+
+/*Textos*/
+p {
+  position: relative;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 75px;
+  width: 80%;
+}

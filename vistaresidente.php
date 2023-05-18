@@ -1,5 +1,4 @@
-<?php include("templates/cabecera.php") ?>
-
+<?php include("templates/cabeceraresidente.php") ?>
 <div class="row justify-content-center" id="container">
         <div class="col-8">
             <div id="carouselExampleIndicators" class="carousel slide">
@@ -43,35 +42,31 @@
             </div>
         </div>
     </div>
+
     <br>
-
-<div class="row justify-content-center">
-<div class="col-8">
-  <div class="borde">
-    <h2 id="espaciado">
-      <span>SERVICIOS DISPONIBLES </span>
-    </h2>
-  </div>
-</div>
-</div>
-
-<br>
 
 <div class="container">
 <div class="row justify-content-center">
 
   <div class="row">
-  <div class="col-md-3">
-            
-            </div>
-  
-    <div class="col-lg-6 col-md-1">
+    <div class="col-lg-4 col-md-12">
+      <div class="borde">
+        <h2 id="espaciado">
+          <span>Reserva de áreas comunes</span>
+        </h2>
+        <p>Encuentra áreas comunes para todas sus necesidades</p>
+        <div class="row justify-content-center" id="paddingboton">
+          <button class="boton"><span>Reservar</span></button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-12">
 
       <div class="borde">
         <h2 id="espaciado">
           <span>Contactanos</span>
         </h2>
-        <p>Si se encuentra con alguna dificultad puede enviar su consulta atraves del siguiente formulario o atraves de nuestro whatsapp
+        <p>Si se encuentra con alguna dificultad puede acudir a nuestro whatsapp local para ofrecerle una solución
         </p>
         <a href="contacto.php">
         <div class="row justify-content-center" id="paddingboton">
@@ -83,6 +78,5 @@
   </div>
 </div>
 </div>
-
 
 <?php include("templates/pie.php") ?>
