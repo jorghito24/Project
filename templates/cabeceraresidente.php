@@ -36,7 +36,7 @@
                         <a href="" class="nav-link">Multas</a>
                     </li>
                     <li class="nav-item p-3 py-md-1">
-                        <a href="" class="nav-link">Pago Online</a>
+                        <a href="pagogastocomun.php" class="nav-link">Pago Online</a>
                     </li>
                     <li class="nav-item p-3 py-md-1">
                         <a href="" class="nav-link">Reservas</a>
